@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Excercise</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="app.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+</head>
+
+<body ng-app="Exercise" ng-controller="GameController">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-sm|md|lg|-xl navbar-dark" style="background-color: #160758;">
+        <a class="navbar-brand" href="https://github.com/OfirShukrun">OFIRSHUKRUN@GitHub</a>
+    </nav>
+    <!--container-->
+
+    <div class="container col-md-8 my-class text-center" style="font-family:cursive ;background-color:rgb(101, 103, 255); ">
+        <h1 class="col-md-12" style="color:rgb(5, 2, 24)">Psycometric Exercises</h1><br>
+        <div>
+            <h2 class="col-md-12" style="color:rgb(2, 0, 12)">{{Num6t20}}^2 = {{answer1}}</h2>
+            <button id="answerButton" ng-click="showAnswer1()">Check the Answer!</button>
+            <br>
+        </div>
+        <div>
+            <h2 class="col-md-12" style="color:rgb(2, 0, 12)">2^{{answer}} = {{Num2t8t2a}}</h2>
+            <button id="answerButton" ng-click="showAnswer()">Check the Answer!</button>
+            <br>
+        </div>
+        <div>
+            <h2 class="col-md-12" style="color:rgb(2, 0, 12)"> 2^{{Num2t8}} = {{answer2}}</h2>
+            <button id="answerButton" ng-click="showAnswer2()">Check the Answer!</button>
+            <br>
+        </div>
+        <div>
+            <h2 class="col-md-12" style="color:rgb(2, 0, 12)">3^{{Num2t4}} = {{answer3}}</h2>
+            <button id="answerButton" ng-click="showAnswer3()">Check the Answer!</button></h2>
+            <br>
+            <div>
+                <h2 class="col-md-12" style="color:rgb(2, 0, 12)">4^{{Num2t4b}} = {{answer4}}</h2>
+                <button id="answerButton" ng-click="showAnswer4()">Check the Answer!</button>
+                <br>
+            </div>
+            <div>
+                <h2 class="col-md-12" style="color:rgb(2, 0, 12)">5^{{Num2t4c}} = {{answer5}}</h2>
+                <button id="answerButton" ng-click="showAnswer5()">Check the Answer!</button>
+                <br>
+            </div>
+            <div>
+                <h2 class="col-md-12" style="color:rgb(2, 0, 12)"> {{Num2t6}}! = {{answer6}}</h2>
+                <button id="answerButton" ng-click="showAnswer6()">Check the Answer!</button>
+                <br>
+                <br><br><br>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <nav class="navbar col-md-12 fixed-bottom" style="background-color: #110350;">
+
+        <h4 style="color:blanchedalmond"><cite>Written and Coded by Ofir Shukrun &copy</cite></h4>
+    </nav>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
+</html>
